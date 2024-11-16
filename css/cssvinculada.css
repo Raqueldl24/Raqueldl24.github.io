@@ -1,0 +1,67 @@
+ <style>
+html{
+    background-color: aquamarine;
+}
+ body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(39, 255, 15);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    right: 20px;
+    left: 20px;
+    
+     }
+   .inicio {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        text-align: center;
+        color: rgb(5, 68, 13);
+        border:2px solid rgb(12, 57, 125);
+        background-color: rgb(10, 183, 126);
+    }
+    .carousel_slide{
+    width:50%;
+   height: 200px;
+   padding-left: 20%;
+   padding-right: 20px;
+   margin-bottom: 10px;
+   }
+   .carousel-item{
+    margin-left: 100px;
+    margin-right: 20px;
+    padding-bottom:20px;
+    align-content:space-between;
+    width:300px ;
+   }
+   .container-fluid{
+        height: 40px; 
+        background-color: rgb(109, 246, 55); 
+        top: 1px;
+    }
+    hr{
+    color: rgb(16, 66, 27);width: 100%;
+    background-color: rgb(16, 66, 27);
+    height: 5px;
+    margin-top: 10px;
+   
+} 
+          
+h1{
+    color: rgb(5, 91, 18); 
+    font-size: 40px; 
+}
+h2{
+    color: rgb(4, 121, 10);  
+}
+h3{
+    color: rgb(30, 140, 5);
+}
+h4{
+    color: rgb(7, 162, 134);  
+}
+.container{
+    background-color: rgb(184, 245, 177);
+}
+
+</style>          

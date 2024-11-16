@@ -1,0 +1,194 @@
+<style>
+.html{ background-color: rgb(243, 232, 223);}
+    body {
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+     background-color: rgb(242, 217, 196);
+      }
+      .imagenes {
+        color: var(--bs-blue);
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BS_Nodding_Donkey_Pump_A.GIF/1024px-BS_Nodding_Donkey_Pump_A.GIF" width="200" class="rounded float-start" alt="200">
+        <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Supercritical-Water-Cooled_Reactor-es.svg/640px-Supercritical-Water-Cooled_Reactor-es.svg.png" class="rounded float-end" alt="200">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Breitenlee-VESTAS-V-52_wind_turbine_looped.gif" class="rounded mx-auto d-block" alt="200.">
+      }
+   
+     
+hr{
+    color: rgb(90, 39, 3);width: 100%;
+    background-color: rgb(104, 50, 6);
+    height: 5px;
+}
+
+   
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 200px;
+        column-gap: 0px;
+        row-gap:10px
+               
+      }
+  
+      .grid-item {
+        background-color:rgb(183, 137, 10);
+        padding: 10px;
+        border: 2px solid rgb(128, 48, 48);
+        font-style: dark;
+        color:(128,48,48);
+        place-items: center;
+
+      }
+  
+     
+      .item-especial1 {
+       grid-column-start:2 ;  /* Abarca desde la fila 1 hasta la 3 */
+       grid-column-end:3 ; 
+       font-size: medium;  
+       place-items: center;  
+       color:rgb(128,48,48);   
+      }
+      .item-especial {
+        grid-column-start:3 ;  /* Abarca desde la fila 1 hasta la 3 */
+        grid-column-end:5 ;  
+      }
+      .item-especial2 {
+        grid-column-start:1 ;  /* Abarca desde la fila 1 hasta la 3 */
+        grid-column-end:5 ; 
+        background-color: rgb(128,48,48); 
+      }
+      .item-especial3 {
+      place-self: center;
+      }
+  header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    }
+      /* Estilos básicos para el acordeón */
+      details {
+        margin-bottom: 10px;
+    }
+
+    summary {
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+        background-color: #fdcece;
+        border: 1px solid #b6e90e;
+        border-radius: 5px;
+    }
+
+    details[open] summary {
+        background-color: #e08fed;
+    }
+
+    .content {
+        padding: 10px;
+        background-color: #f85bed;
+        border-top: 1px solid #2d8114;
+    }
+h1{
+    color: rgb(102, 8, 8); 
+    font-size: 38px; 
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    text-align-last: 10px;
+   }
+h2{
+    color: rgb(129, 34, 34);  
+}
+h3{
+    color: rgb(179, 52, 6);
+}
+h4{
+    color: rgb(183, 113, 61);  
+}
+p{
+    color: rgb(53, 52, 52);
+}
+.container{
+    background-color: rgb(247, 190, 115);
+}
+ /* Estilos generales */
+ body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Estilos para el acordeón */
+.accordion {
+    margin: 10px 10;
+}
+
+.accordion-button {
+    background-color: #d3955b;
+    color: rgb(84, 8, 8);
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.accordion-button:hover {
+    background-color: #ebaf41;
+}
+
+/* Estilo para los contenidos ocultos */
+.accordion-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #dfc8ab;
+    margin-top: 5px;
+}
+
+.accordion-button:after {
+    content: '\002B'; /* símbolo más */
+    font-size: 20px;
+    float: right;
+}
+
+.active:after {
+    content: '\2212'; /* símbolo menos */
+}
+
+/* Estilos para los botones dentro de cada acordeón */
+.sub-accordion {
+    margin-top: 10px;
+}
+
+.sub-accordion-button {
+    background-color: #f2e372;
+    color: rgb(137, 22, 22);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.sub-accordion-button:hover {
+    background-color: #c59ff4;
+}
+
+.sub-accordion-content {
+    padding: 10px;
+    display: none;
+    background-color: #edc2a8;
+}
+
+.sub-accordion-button:after {
+    content: '\002B';
+    font-size: 18px;
+    float: right;
+}
+
+.sub-active:after {
+    content: '\2212';
+}
+</style>
